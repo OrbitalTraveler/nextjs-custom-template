@@ -1,37 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Universal App Template 🚀
 
-## Getting Started
+A powerful and reusable Next.js 15+ template designed for SaaS, dashboards, blogs, e-commerce, and web apps.
 
-First, run the development server:
+## ✨ Features
+
+- ✅ App Router (Next.js 15+)
+- 🎨 Tailwind CSS with light/dark theme support
+- 🧱 shadcn/ui components
+- 🔐 Authentication via Auth.js (OAuth + Email/Password)
+- 🛡️ Role-based access control
+- 📦 Redux Toolkit for state management
+- ✅ Zod for schema validation (forms, API inputs, etc.)
+- 🧠 Prisma ORM for database access and migrations
+- 🧰 tRPC for API communication
+- 📧 Email sending utilities (OTP, activation)
+- ☁️ File upload support (profile images & more)
+- 📁 Clean and modular folder structure
+- 🧹 ESLint + Prettier configured
+
+## 🛠️ Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-next-app -e https://github.com/OrbitalTraveler/nextjs-custom-template
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏃 Running the project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Before starting the project make sure you've configured your website settings inside of `/site.ts` file, as well as inside of `/.env.local`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Once that's done run following commands:
 
-## Learn More
+```bash
+npm install # installs all necessary packages
 
-To learn more about Next.js, take a look at the following resources:
+npm run dev # starts the project
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 Coming Soon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Stripe integration
+- Admin panel
+- Billing dashboard
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Next.js Custom Template
+Made with ❤️ by Big Jevicana
